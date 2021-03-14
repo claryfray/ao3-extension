@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+
+    "name": "chelsy reads too much fanfic [working title]",
+    "version": "1.0",
+    "description": "something for ao3??",
+
+    "content_scripts": [
+        {
+          "matches": ["*://archiveofourown.org/*"],
+          "js": ["background.js"]
+        }
+    ]
+}
